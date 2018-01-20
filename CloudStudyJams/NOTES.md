@@ -1,5 +1,6 @@
-<!--  Table Of Contents: START  -->
+**TABLE OF CONTENTS**
 
+<!--  Table Of Contents: START  -->
  - [GOOGLE CLOUD TRAINING](#google-cloud-training)
     + [1. GCP Essentials](#1-gcp-essentials)
         * [1.1 Creating a Virtual Machine](#11-creating-a-virtual-machine)
@@ -13,21 +14,19 @@
         * [2.1 Intro to Docker](#21-intro-to-docker)
     + [3. Scientific Data Processing](#3-scientific-data-processing)
         * [3.1 Rent-a-VM to Process Earthquake Data](#31-rent-a-vm-to-process-earthquake-data)
-    
 <!-- Table of Contents: END -->
+
 
 # GOOGLE CLOUD TRAINING
 
 Study Jam [Agenda](http://bit.ly/gdgnyc-cloud-studyjams-2018) using
 [QwikLabs Quests](https://google.qwiklabs.com/catalog) as training paths.
 
-> Prerequisites
-
+**Prerequisites:**
 Familiarity with standard Linux text editors such as vim, emacs, or nano will be helpful. If you already have your own GCP account, make sure you do NOT use it for this lab. 
 
-> TIPS
-
-Open Qwiklabs in an ANONYMOUS window to make sure you are not logged into any of your real Google accounts. 
+**TIPS:**
+Open Qwiklabs in an ANONYMOUS window to make sure you are not logged into any of your real Google accounts. For each lab, it also helps to review all the content/instructions quickly _before_ you click the green START button to walk through them in practice.
 
 ---
 
@@ -74,7 +73,7 @@ _Estimates 30 mins. **Took 10 mins**_
 
 ### [1.2 Getting Started with Cloud Shell & gcloud](https://google.qwiklabs.com/focuses/5780)
 In this hands-on lab, you will learn how to connect to computing resources hosted on Google Cloud Platform via the web. You will also learn how to use Cloud Shell and the Cloud SDK gcloud command. 
-_Estimates 40 mins. **Took 30 mins**_
+_Estimates 40 mins. **Took 15 mins**_
 
 > **WHAT YOU'LL DO**
 
@@ -101,9 +100,25 @@ _Estimates 30 minutes. **Took 10 minutes**_
 
 > **WHAT YOU'LL DO**
 
+* Launch a common web stack with Cloud Launcher
+* Verify your deployment
+
 > STEPS
 
+ 1. Go to Google Cloud Console. Click _Cloud Launcher_ (rocket icon)
+ 2. Go to Search bar. Look for _Nginx Certified By Bitnami_
+ 3. Select result. Click _Launch on Compute Engine_ (this starts a VM instance with that software directly)
+ 4. Configure Nginx instance (name, region) in window displayed. 
+ 5. Click to deploy. (Should show progess status ..)
+ 6. Verify deployment by clicking _Visit the Site_ (via console)
+ 7. Verify deployment by clicking _SSH_ (for VM instance), then running ``` ps aux | grep nginx``` to verify the process is running.
+ 8. Done!
+
+Bonus:
+ 1. Use Search bar in _Cloud Launcher_ window to explore what other software packages are available for seamless Cloud deployment.
+
 > NOTES
+
 
 ```
 CONTINUE WITH THE LESSONS AT HOME
@@ -119,6 +134,7 @@ _Estimates 30 minutes, takes y minutes_
 
 > NOTES
 
+
 ### [1.5 Hello Node Kubernetes](https://google.qwiklabs.com/focuses/5781)
 In this hands-on lab, you'll learn how to turn your code into a replicated application running on Kubernetes. You'll create a Node.js app, create a Docker container from it, deploy it to Kubernetes Engine, and scale it up.
 _Estimates 60 minutes, takes y minutes_
@@ -130,6 +146,7 @@ _Estimates 60 minutes, takes y minutes_
 > NOTES
 
 ### [1.6 Monitoring Cloud Infrastructure with Stackdriver](https://google.qwiklabs.com/focuses/5782)
+In this hands-on lab we take a look through some of the information provided by the Stackdriver Monitoring tools, and teach some of the concepts you will need to know to take advantage of Stackdriver Monitoring effectively.
 _Estimates 45 minutes, takes y minutes_
 
 > **WHAT YOU'LL DO**
@@ -139,6 +156,7 @@ _Estimates 45 minutes, takes y minutes_
 > NOTES
 
 ### [1.7 Setup Network and HTTP Load Balancers](https://google.qwiklabs.com/focuses/5784)
+In this hands-on lab, you'll learn how setup both network load balancers and HTTP load balancers for your application running in Google Compute Engine virtual machines.
 _Estimates 40 minutes, takes y minutes_
 
 > **WHAT YOU'LL DO**
