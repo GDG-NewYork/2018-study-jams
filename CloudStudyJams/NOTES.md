@@ -185,10 +185,55 @@ _Estimates 40 minutes, takes y minutes_
 
 ### [3.1 Rent-a-VM to Process Earthquake Data](https://google.qwiklabs.com/focuses/5688)
 In this lab you spin up a virtual machine, configure its security, access it remotely, and then carry out the steps of an ingest-transform-and-publish data pipeline manually. This lab is part of a series of labs on processing scientific data.
-_Estimates 40 minutes, takes y minutes_
+_Estimates 40 minutes. **Took 12 minutes**_
 
 > **WHAT YOU'LL DO**
+> 
+In this lab, you:
+
+ * Create a Compute Engine instance with the necessary access and security.
+ * SSH into the instance.
+ * Install the software package Git (for source code version control).
+ * Ingest data into the Compute Engine instance.
+ * Transform data on the Compute Engine instance.
+ * Store the transformed data on Cloud Storage.
+ * Publish Cloud Storage data to the web.*
 
 > STEPS
+
+ 1. Create VM Instance (Compute Engine > VM Instances > Create)
+ 2. Change Identify API access (to 'Allow Full Access to Cloud APIs')
+ 3. Open SSH Terminal for created VM Instance (from VM status line)
+ 4. Verify Compute Engine instance with ```cat /proc/cpuinfo```
+ 5. Install required Software in session.
+    * Update package repo list. ```sudo apt-get update```
+    * Install git. ```sudo apt-get -y -qq install git```
+    * Verify git install. ```git --version```
+ 6. Install demo app code & run it.
+    * Clone repo. ```git clone https://github.com/GoogleCloudPlatform/training-data-analyst```
+    * Find lab directory. ```cd training-data-analyst/CPB100/lab2b```
+    * Check ingest program code ```less ingest.sh```
+    * Run ingest program ``` bash ingest.sh```
+    * Verify data was ingested ```head earthquakes.csv```
+ 7. Transform ingested data into map visualization.
+    * Review Python Notebook in browser ```https://github.com/GoogleCloudPlatform/datalab-samples/blob/master/basemap/earthquakes.ipynb```
+    * Install Python dependencies in VM instance ```bash install_missing.sh```
+    * Run the transformation code ```python transform.py```
+    * Verify a new `.png` file was created ```ls -l```
+ 8. Store transformed data in Cloud Storage/
+    * Create bucket using GCP Console (Products > Storage > Create)
+    * Pick globally-unique bucket name (and remember it)
+    * In Compute Engine SSH window, ```gsutil cp earthquakes.* gs://< ``` 
+    * Verify 3 files copied (Storage > Check your named bucket)
+ 9. Publish Cloud Storage Files to Web
+    * Select the three files from Storage (in Google Console)
+    * Click "Share publicly" to get listing
+    * Click "Share publicly" checkbox for only the ".htm" file 
+    * Verify visibility by visiting the URL generated for this
+
+Done. 
+_Question: How did the bucket name you chose related to the published Google Cloud Storage public link URL?_
+ * I chose _gdgnyc-earthquakes_ as the bucket name
+ * The public URL ended up being _https://storage.googleapis.com/gdgnyc-earthquakes/earthquakes/earthquakes.htm_
 
 > NOTES
