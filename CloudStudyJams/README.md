@@ -15,8 +15,8 @@ The broad goals are to learn:
  * how Docker & Kubernetes work
  * how to process Big Data in the Cloud
 
-
 <br/>
+
 ### Group Study In-Venue (3 hours)
 
 These are the minimum labs that you should have completed during the in-venue study jams session.
@@ -27,8 +27,8 @@ These are the minimum labs that you should have completed during the in-venue st
  - **Kubernetes in the Google Cloud** / [Introduction to Docker](https://qwiklabs.com/focuses/7042)
  - **Scientific Data Processing** / [Rent-a-VM to process Earthquake Data](https://qwiklabs.com/focuses/6897)
 
-
 <br/>
+
 ### Self-Study At Home (1 month)
 
 Once those are completed (with the custom link provided) you should unlock 1 free month of QwikLabs access. At this point, you can follow your own path through the courses. Here is one recommended path. 
@@ -42,8 +42,8 @@ Once those are completed (with the custom link provided) you should unlock 1 fre
 
 Finishing the GCP Essentials quest _may_ unlock an additional month on the subscription, so prioritize that first. After that, prioritize quests that require higher credit counts so you can maximize the usage of that free subscription (which effectively covers those credits).
 
-
 <br/>
+
 ## Study Jams Notes
 
 This section will be used to link to Study Notes created for any of these quests/labs by the facilitators or other members of the community (contributors).
