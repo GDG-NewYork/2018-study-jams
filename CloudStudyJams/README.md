@@ -5,8 +5,6 @@ The 2018 Cloud Study Jams kicked off on January. Learn more about the [Cloud Stu
  * **Google Cloud** / 11 Quests / 106 Labs
  * **Amazon Web Services** / 22 Quests / 95 Labs
 
-<br/>
-
 #### Learning Goals
 
 The broad goals are to learn:
@@ -15,8 +13,6 @@ The broad goals are to learn:
  * how to setup production environments in Google Cloud
  * how Docker & Kubernetes work
  * how to process Big Data in the Cloud
-
-<br/>
 
 #### Group Study In-Venue (3 hours)
 
@@ -27,8 +23,6 @@ These are the minimum labs that you should have completed during the in-venue st
  - **GCP Essentials** / [Provision Services with Cloud Launcher](https://qwiklabs.com/focuses/6477)
  - **Kubernetes in the Google Cloud** / [Introduction to Docker](https://qwiklabs.com/focuses/7042)
  - **Scientific Data Processing** / [Rent-a-VM to process Earthquake Data](https://qwiklabs.com/focuses/6897)
-
-<br/>
 
 #### Self-Study At Home (1 month)
 
