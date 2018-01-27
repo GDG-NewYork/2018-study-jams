@@ -6,7 +6,8 @@ The 2018 Cloud Study Jams kicked off on January. Learn more about the [Cloud Stu
  * **Amazon Web Services** / 22 Quests / 95 Labs
 
 <br/>
-### Learning Goals
+
+#### Learning Goals
 
 The broad goals are to learn:
 
@@ -17,7 +18,7 @@ The broad goals are to learn:
 
 <br/>
 
-### Group Study In-Venue (3 hours)
+#### Group Study In-Venue (3 hours)
 
 These are the minimum labs that you should have completed during the in-venue study jams session.
 
@@ -29,7 +30,7 @@ These are the minimum labs that you should have completed during the in-venue st
 
 <br/>
 
-### Self-Study At Home (1 month)
+#### Self-Study At Home (1 month)
 
 Once those are completed (with the custom link provided) you should unlock 1 free month of QwikLabs access. At this point, you can follow your own path through the courses. Here is one recommended path. 
 
