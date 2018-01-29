@@ -47,9 +47,9 @@ This section will be used to link to Study Notes created for any of these quests
 
  1. **[GCP ESSENTIALS](https://qwiklabs.com/quests/23)**
     - [Creating a Virtual Machine](10-GCP-Essentials/1-Creating-a-Virtual-Machine.md)
-    - Getting Started with Cloud Shell and gCloud
-    - Provision Services with Cloud Launcher
-    - Creating a Persistent Disk
+    - [Getting Started with Cloud Shell and gCloud](10-GCP-Essentials/2-Getting-Started-With-CloudShell-And-gcloud.md)
+    - [Provision Services with Cloud Launcher](10-GCP-Essentials/3-Provision-Services-with-CloudLauncher.md)
+    - [Creating a Persistent Disk](10-GCP-Essentials/4-Creating-A-Persistent-Disk.md)
     - Hello Node Kubernetes
     - Monitoring Cloud Infrastructure with Stackdriver
     - Setup Network and HTTP Load Balancers
