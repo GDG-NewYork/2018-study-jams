@@ -43,14 +43,14 @@ Finishing the GCP Essentials quest _may_ unlock an additional month on the subsc
 
 ## Study Jams Notes
 
-This section will be used to link to Study Notes created for any of these quests/labs by the facilitators or other members of the community (contributors).
+This section will be used to link to Study Notes created for any of these quests/labs by the facilitators or other members of the community (contributors). Check the pages for individual lessons for links to relevant _Troubleshooting_ guides or tips.
 
  1. **[GCP ESSENTIALS](https://qwiklabs.com/quests/23)**
     - [Creating a Virtual Machine](10-GCP-Essentials/1-Creating-a-Virtual-Machine.md)
     - [Getting Started with Cloud Shell and gCloud](10-GCP-Essentials/2-Getting-Started-With-CloudShell-And-gcloud.md)
     - [Provision Services with Cloud Launcher](10-GCP-Essentials/3-Provision-Services-with-CloudLauncher.md)
     - [Creating a Persistent Disk](10-GCP-Essentials/4-Creating-A-Persistent-Disk.md)
-    - [Hello Node Kubernetes] (10-GCP-Essentials/5-Hello-Node-Kubernetes.md)
+    - [Hello Node Kubernetes](10-GCP-Essentials/5-Hello-Node-Kubernetes.md)
     - [Monitoring Cloud Infrastructure with Stackdriver](10-GCP-Essentials/6-Monitoring-Cloud-Infrastructure-With-Stackdriver.md)
     - [Setup Network and HTTP Load Balancers](10-GCP-Essentials/7-Setup-Network-And-HTTP-Load-Balancers.md)
     
