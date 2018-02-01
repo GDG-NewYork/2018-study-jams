@@ -43,7 +43,7 @@ Finishing the GCP Essentials quest _may_ unlock an additional month on the subsc
 
 ## Study Jams Notes
 
-This section will be used to link to Study Notes created for any of these quests/labs by the facilitators or other members of the community (contributors).
+This section will be used to link to Study Notes created for any of these quests/labs by the facilitators or other members of the community (contributors). Check the pages for individual lessons for links to relevant _Troubleshooting_ guides or tips.
 
  1. **[GCP ESSENTIALS](https://qwiklabs.com/quests/23)**
     - [Creating a Virtual Machine](10-GCP-Essentials/1-Creating-a-Virtual-Machine.md)
