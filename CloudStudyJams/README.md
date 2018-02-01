@@ -50,9 +50,9 @@ This section will be used to link to Study Notes created for any of these quests
     - [Getting Started with Cloud Shell and gCloud](10-GCP-Essentials/2-Getting-Started-With-CloudShell-And-gcloud.md)
     - [Provision Services with Cloud Launcher](10-GCP-Essentials/3-Provision-Services-with-CloudLauncher.md)
     - [Creating a Persistent Disk](10-GCP-Essentials/4-Creating-A-Persistent-Disk.md)
-    - Hello Node Kubernetes
-    - Monitoring Cloud Infrastructure with Stackdriver
-    - Setup Network and HTTP Load Balancers
+    - [Hello Node Kubernetes] (10-GCP-Essentials/5-Hello-Node-Kubernetes.md)
+    - [Monitoring Cloud Infrastructure with Stackdriver](10-GCP-Essentials/6-Monitoring-Cloud-Infrastructure-With-Stackdriver.md)
+    - [Setup Network and HTTP Load Balancers](10-GCP-Essentials/7-Setup-Network-And-HTTP-Load-Balancers.md)
     
  2. **[KUBERNETES IN THE GOOGLE CLOUD](https://qwiklabs.com/quests/29)**
     - Introduction to Docker
