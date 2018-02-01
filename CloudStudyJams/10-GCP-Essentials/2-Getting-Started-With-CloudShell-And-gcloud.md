@@ -55,3 +55,9 @@ How to initialize a Google Cloud Shell and connect to your projects & resources 
  - Upload it to bucket ```gsutil cp test.dat gs://my-unique-bucket-name```x
 
 ### ```TROUBLESHOOTING```
+
+This section is meant to capture any issues encountered during this lab, and to provide clarifications to process if useful.
+
+> Got a session with Cloud Shell icon disabled
+
+QwikLabs indicated this could have been a transient issue caused by poor network connectivity. Take a screenshot of the issue and wait 24 hours to see if issue persists. If so, take a second screenshot and send both to _support@qwiklabs.com_ with a description of the problem. _This is a fairly rare issue though_
