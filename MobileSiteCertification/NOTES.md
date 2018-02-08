@@ -11,8 +11,8 @@ The [Mobile Site Certification Study Jams](http://bit.ly/gdgnyc-cloud-studyjams-
  * [Academy Study Guide](https://academy.exceedlms.com/student/path/2967) has about 13 sections (~2hrs) of review content.
  * [Google Partners Guide](https://support.google.com/partners/answer/7327828) has 4 modules (time not provided.)
  * Join the [GDG NYC Slack](https://gdgny.slack.com) on the _#2018-mobile-site-cert_ channel to share insights or discuss issues.
-
 <br/>
+
 ## [Academy Study Guide](https://academy.exceedlms.com/student/path/2967)
 
 _Study Notes from the Academy Guide "[Study Mobile Sites](https://academy.exceedlms.com/student/path/2967)" section. Participants are encouraged to review the content on the site directly, and use this only for quick recaps or reviews as needed._
@@ -158,6 +158,7 @@ To fix this, evaluate the _critical rendering path_ for your website.
 **Takeaway:** _ _
 
 <br/>
+
 ## [Google Partners Study Guide](https://support.google.com/partners/answer/7327828)
 
 _Study Notes from the [Google Partners Study Guide](https://support.google.com/partners/answer/7327828). Participants are encouraged to review the conent on the site directly, and use this only for quick recaps or reviews as needed._
