@@ -1,6 +1,5 @@
 # Mobile Site Certification Study Jams
 
-<br/>
 ## [GDG NYC Study Jam](http://bit.ly/gdgnyc-cloud-studyjams-2018)
 
 The [Mobile Site Certification Study Jams](http://bit.ly/gdgnyc-cloud-studyjams-2018) is a community initiative to encourage members to learn & assess their knowledge of best practices for web site development.
