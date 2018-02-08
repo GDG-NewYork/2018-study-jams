@@ -171,22 +171,50 @@ _Study Notes from the [Google Partners Study Guide](https://support.google.com/p
 1.1 BASICS OF MOBILE SITES
 ```
 
+ * Mobile web sites are properties accessed via a mobile device's web browser.
+ * _User benefits_: discoverability, intuitive/familiar usage, no installs
+ * _Business benefits_: low dev costs, build once run anywhere, simple tracking
+
 ```
 1.2.1 USER EXPECTATIONS
 ```
+
+ * Should be fast (eliminate extra seconds)
+ * Obesity crisis (pages carry lots of added weight in resources, media)
+ * Slow pages + bad UX = abandonment by users = low conversion for businesses
+
+60% expect page loading < 3 seconds. 
+75% abandon site if loading > 5 seconds.
 
 ```
 1.2.2 IMPACT OF CONVERSIONS AND INTERACTION
 ```
 
+Slow pages have
+ * higher bounce rates
+ * lower conversion/retention rates
+ * slower Google crawler = fewer pages get indexed
+
+In general, faster pages have higher conversions.
+Exception is some "really" fast pages => speculation is that these are actually returning 404s (hence fast, but no conversion)
+
 ```
 1.2.3 WHY UX MATTERS
 ```
+
+Converting higher percentage of *existing* customers is more efficient (cost-effective) than attracting *new* customers to the site.
+
+Increasing conversion rates also decreases customer *acquisition* costs on average. Even minor UX changes (e.g., color, font) can have non-trivial impact on conversion rates.
 
 ```
 1.3 DISCOVERABILITY
 ```
 
+Starting point is to ensure customers *find* your website. Three tools:
+
+ * [Google AdSense](https://www.google.com/adsense) for targeted advertisements that help monetize app/site and drive traffic
+ * [Search Optimization](https://developers.google.com/web/fundamentals/discovery/search-optimization/) to improve search accuracy & ranking by employing best practices (e.g., use responsive design, define URL structure, serve separate mobile/desktop versions with rel="alternate" for desktop, rel="canonical" for mobile)
+ * [Social Discovery](https://developers.google.com/web/fundamentals/discovery-and-monetization/social-discovery/) with rich snippets and microdata that influence how the site's summary is shown when shared on social media.
 
 
 ### Module 2 | Improving Mobile Site Speed
